@@ -28,6 +28,8 @@ export const LanguageSelect: FC<Props> = ({ language, onChange }) => {
 };
 
 const languages = [
+  { value: 'J2ME', label: 'J2ME (Java 2 Micro Edition)' },
+  { value: 'Libgdx', label: 'Libgdx 2D Game' },
   { value: 'Pascal', label: 'Pascal' },
   { value: 'JavaScript', label: 'JavaScript' },
   { value: 'TypeScript', label: 'TypeScript' },
